@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+#container
+{
+    min-height: 100%;
+}
+
+#main
+{
+    overflow: auto;
+}
+
+#top
+{
+    font-size: 13px;
+    color: #000;
+    opacity: 0.75;
+    line-height: 24px;
+}
+
+#top-left
+{
+    position: absolute;
+    margin: 7px 0 0 10px;
+    padding-left: 15px;
+    margin-left: -7px;
+}
+
+#top-margin
+{
+    margin: 7px 0 0 10px;
+}
+
+#top-right
+{
+    float: right;
+    padding-left: 15px;
+    padding-right: 30px;
+    margin-right: 30px;
+    margin: 7px 0 0 10px;
+}
+
+#sign-in
+{
+    float: right;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #4285f4;
+    background: #0a63fc;
+    border-radius: 2px;
+    outline: none;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 15px;
+    vertical-align: center;
+}
+
+#box
+{
+    opacity: 0.75;
+    margin: 7px 0 0 10px;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+#sign:hover
+{
+    text-decoration: none;
+    box-shadow:#4285f4;
+}
+
+#search-area
+{
+    position: fixed;
+    padding-top: 191px;
+    left: 40%;
+}
+
+#search-bar
+{
+    display: flex;
+    margin: 30px 0 auto -160px;
+    border-radius: 24px;
+    width: 575px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+#search-bar:focus
+{
+    outline: none;
+}
+
+#search-bar:hover
+{
+    box-shadow: 0px 0px 10px 0px #dfe1e5; 
+}
+
+#mag-glass
+{
+    width: 17px;
+    display: flex;
+    margin-left: -145px;
+    margin-top: -33px;
+    opacity: 75%;
+}
+
+#voice
+{
+    width: 14px;
+    display: flex;
+    margin-left: 432px;
+    margin-top: -18px;
+}
+
+.buttons
+{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #5F6368;
+    line-height: 27px;
+    font-size: 14px;
+    text-align: center;
+    margin: 45px 4px;
+    cursor: pointer;
+    height: 36px;
+    padding: 0 16px;
+}
+
+#footer
+{
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+    font-family: Arial;
+    padding-left: inherit;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.bottom
+{
+    font-size: 14px;
+    color: #5f6368;
+    padding-left: 27px;
+    margin-left: -27px;
+}
+
+.right-bottom
+{
+    float: right;
+    margin-right: 30px;
+}
